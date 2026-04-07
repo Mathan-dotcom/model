@@ -12,7 +12,7 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return username.trim();
     }
 
     public void setUsername(String username) {
