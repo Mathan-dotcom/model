@@ -27,8 +27,6 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-// Custom task to create JAR
 task createjar {
 	dependsOn bootJar
 	doLast {
