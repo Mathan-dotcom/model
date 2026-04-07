@@ -11,7 +11,11 @@ public class User {
     }
 
     public String getUsername() {
+<<<<<<< HEAD
         return username.toUpperCase();
+=======
+        return username.trim();
+>>>>>>> 821c394423fb1bff193f91ed378665438a6180cd
     }
 
     public void setUsername(String username) {
